@@ -1,7 +1,8 @@
 (ns edn-config.core
   (:require [clojure.edn :as edn]
             [environ.core :refer [env]]
-            [medley.core :refer [map-vals]]))
+            [medley.core :refer [map-vals]])
+  (:refer-clojure :exclude [load-file load-string]))
 
 (defn- maybe-assoc-env
   "If there is a value for v in the environment then assoc k with that

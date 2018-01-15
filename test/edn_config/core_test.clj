@@ -1,6 +1,7 @@
 (ns edn-config.core-test
   (:require [clojure.test :refer :all]
-            [edn-config.core :refer :all]))
+            [edn-config.core :refer :all])
+  (:refer-clojure :exclude [load-file load-string]))
 
 (deftest load-tests
   (testing "without :env anywhere"
