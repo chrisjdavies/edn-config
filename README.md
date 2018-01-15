@@ -8,6 +8,18 @@ Captures the common pattern of loading configurations in EDN form
 (with `clojure.edn/read-string`) and merging sensitive values in from
 the environment.
 
+
+## Installation
+
+Add the following to your `project.clj`:
+
+```
+[chrisjd/edn-config "0.1.0"]
+```
+
+
+## Usage
+
 The two main functions of this library are `edn-config.core/load-file`
 and `edn-config.core/load-string`.  These functions essentially just
 use `clojure.edn/read-string` to parse [EDN
@@ -61,21 +73,13 @@ following to be used:
              :port :web-port}}}
 ```
 
-## Installation
-
-Add the following to your `project.clj`:
-
-```
-[chrisjd/edn-config "0.1.0"]
-```
-
 
 ## Documentation
 
 - [API Docs](https://chrisjdavies.github.io/edn-config/)
 
 
-## Usage
+## Examples
 
 Load from a string (`edn-config.core/load-string`) or file
 (`edn-config.core/load-file`):
