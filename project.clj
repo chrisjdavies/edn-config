@@ -1,4 +1,4 @@
-(defproject chrisjd/mapx "0.1.0"
+(defproject chrisjd/edn-config "0.1.0"
   :description "Load configuration files in EDN format with env-merging."
   :url "https://github.com/chrisjdavies/edn-config"
   :license {:name "The MIT License"
