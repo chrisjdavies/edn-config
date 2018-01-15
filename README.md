@@ -14,7 +14,7 @@ the environment.
 Add the following to your `project.clj`:
 
 ```
-[chrisjd/edn-config "0.1.0"]
+[chrisjd/edn-config "0.1.1"]
 ```
 
 
